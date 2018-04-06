@@ -8,9 +8,9 @@ def read_csv(file):
         tem = "Nothing"
         for row in reader:
             if row['fecha'] is None:
-                tem = row['id_cliente']
+                tem = row['codigo_cliente'][:-1]
             else:
-                csv_rows.extend([{'id_pelicula':tem, title[0]:row['id_cliente'], title[1]:row['calificacion'], title[2]:row['fecha']}])
+                csv_rows.extend([{'id_pelicula':tem, title[0]:row['codigo_cliente'], title[1]:row['calificacion'], title[2]:row['fecha']}])
         write_json(csv_rows)
 
 #Convert csv data into json and write it
