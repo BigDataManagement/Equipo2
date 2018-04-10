@@ -9,7 +9,7 @@ Uno de los principales objetivos que se lograron fue cargar los archivos en la b
 A continuación se puede observar los resultados obtenidos después de la implementación de cada script.
 
 +--------------+------------------------------------------+  
-|  CsvToJson     | 5 horas, resultado fallido.            |  
+|   CsvToJson     | 5 horas, resultado fallido.            |  
 +--------------+------------------------------------------+    
 | PandasJson   | 9 horas, resultado fallido.  |              
 +--------------+------------------------------------------+
@@ -17,7 +17,9 @@ A continuación se puede observar los resultados obtenidos después de la implem
 
 # Problemas y errores encontrados
 
-Nos dimos cuenta que a pesar de estar procesando bien el archivo para limpiar la data, al momento de iniciar la operacion de escribir el json,  se consumian todos los procesos de las maquinas utilizadas , hasta que los procesos se suicidaban
+Nos dimos cuenta que a pesar de estar procesando bien el archivo para limpiar la data, al momento de iniciar la operacion de escribir el json,  se consumian todos los procesos de las maquinas utilizadas , hasta que los procesos se suicidaban.
+
+
 
 # ¿Cómo se solucionaron los problemas?
 
@@ -26,4 +28,9 @@ la coleccion movie_titles tomo menos de un segundo en subirse a la base de datos
 la coleccion scores_2  tomo 35 min aprox en subirse a la base de datos.
 Gracias al workbench o IDE Studio 3T se pudo realizar la subida de ambos archivos sin mayor complicaciones
 
+![](https://cdn.discordapp.com/attachments/429423569605492737/433116050209636353/unknown.png)
+
+![](https://media.discordapp.net/attachments/429423569605492737/433118326676389888/unknown.png?width=860&height=484)
+
+![](https://media.discordapp.net/attachments/429423569605492737/433118378106945536/unknown.png?width=860&height=484)
 # ¿Cómo no se solucionaron los problemas?
