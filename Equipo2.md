@@ -68,4 +68,4 @@ A pesar de que nuestros scripts fallaron, gracias a la colaboracion con el equip
 
 # ¿Cómo no se solucionaron los problemas?<h2>
 *El siquente fue un error que se presento a la hora de tratar de hacer una query especifica con mongo en pentaho
-![]https://cdn.discordapp.com/attachments/429423569605492737/433153491066814465/Captura.PNG
+![](https://cdn.discordapp.com/attachments/429423569605492737/433153491066814465/Captura.PNG)
