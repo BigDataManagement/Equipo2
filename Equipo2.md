@@ -39,6 +39,13 @@ A pesar de que nuestros scripts fallaron, gracias a la colaboracion con el equip
 
 * Y cuál fue el resultado obtenido.
 ![](https://cdn.discordapp.com/attachments/429423569605492737/433132897793343510/unknown.png)
+
+* En la siguiente tabla podemos ver ...
+![](https://cdn.discordapp.com/attachments/429423569605492737/433123964609363968/unknown.png)
+
+* Los resultados obtenidos:
+![](https://cdn.discordapp.com/attachments/429423569605492737/433137589063516160/unknown.png)
+
 # Problemas y errores encontrados<h2>
 
 Nos dimos cuenta que a pesar de estar procesando bien el archivo para limpiar la data, al momento de iniciar la operacion de escribir el json,  se consumian todos los procesos de las maquinas utilizadas , hasta que los procesos se suicidaban.
