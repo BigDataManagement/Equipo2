@@ -29,10 +29,11 @@ A pesar de que nuestros scripts fallaron, gracias a la colaboracion con el equip
 
 
 * la coleccion movie_titles tomo menos de un segundo en subirse a la base de datos
-![](https://cdn.discordapp.com/attachments/429423569605492737/433116050209636353/unknown.png)
+![](https://media.discordapp.net/attachments/429423569605492737/433118326676389888/unknown.png?width=860&height=484)
 
 * la coleccion scores_2  tomo 35 min aprox en subirse a la base de datos.
-![](https://media.discordapp.net/attachments/429423569605492737/433118326676389888/unknown.png?width=860&height=484)
+![](https://media.discordapp.net/attachments/429423569605492737/433118378106945536/unknown.png?width=860&height=484)
+
 
 * En las siguientes imágenes podemos ver la manera como se hace la consulta con las 5 mejores calificaciones.
 ![](https://cdn.discordapp.com/attachments/429423569605492737/433132959340691457/unknown.png)
@@ -56,5 +57,5 @@ Nos dimos cuenta que a pesar de estar procesando bien el archivo para limpiar la
 
 Gracias a los scripts que el equipo 4 nos compartio, pudimos limpiar y formatear el archivo combined_data_2.txt y asi poder montarlo a la base de datos
 
-![](https://media.discordapp.net/attachments/429423569605492737/433118378106945536/unknown.png?width=860&height=484)
+
 # ¿Cómo no se solucionaron los problemas?
