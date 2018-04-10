@@ -41,7 +41,7 @@ A pesar de que nuestros scripts fallaron, gracias a la colaboracion con el equip
 * Y cuál fue el resultado obtenido.
 ![](https://cdn.discordapp.com/attachments/429423569605492737/433132897793343510/unknown.png)
 
-* En la siguiente tabla podemos ver ...
+* En la siguiente tabla podemos ver las calificaciones hechas a cada pelicula
 ![](https://cdn.discordapp.com/attachments/429423569605492737/433123964609363968/unknown.png)
 
 * Los resultados obtenidos:
@@ -49,7 +49,8 @@ A pesar de que nuestros scripts fallaron, gracias a la colaboracion con el equip
 
 # Problemas y errores encontrados<h2>
 
-Nos dimos cuenta que a pesar de estar procesando bien el archivo para limpiar la data, al momento de iniciar la operacion de escribir el json,  se consumian todos los procesos de las maquinas utilizadas , hasta que los procesos se suicidaban.
+*Nos dimos cuenta que a pesar de estar procesando bien el archivo para limpiar la data, al momento de iniciar la operacion de escribir el json,  se consumian todos los procesos de las maquinas utilizadas , hasta que los procesos se suicidaban.
+*La realizacion de querys especificas en mongo se torno algo complicado para el equipo, por la poca experiencia con esta base de datos
 
 
 
