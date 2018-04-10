@@ -19,11 +19,11 @@ Uno de los principales objetivos que se lograron fue cargar los archivos en la b
 
 A continuación se puede observar los resultados obtenidos después de la implementación de cada script.
 
-+--------------+--------------------------------------------------+  
-|   CsvToJson  |tiempo ejecucion: 5 horas, resultado: fallo.  |  
-+--------------+--------------------------------------------------+    
-| PandasJson   |tiempo ejecucion: 9 horas, resultado: fallo.  |              
-+--------------+--------------------------------------------------+
++--------------+-----------------------------------------+---------------------------+  
+|   CsvToJson  |tiempo ejecucion: 5 horas | resultado: fallo.  |  
++--------------+-----------------------------------------+---------------------------+    
+| PandasJson   |tiempo ejecucion: 9 horas | resultado: fallo.  |              
++--------------+-----------------------------------------+---------------------------+
 
 A pesar de que nuestros scripts fallaron, gracias a la colaboracion con el equipo 4 , logramos montar el archivo con la ayuda del workbench o IDE Studio 3T sin mayores complicaciones.
 
