@@ -19,11 +19,11 @@ Uno de los principales objetivos que se lograron fue cargar los archivos en la b
 
 A continuación se puede observar los resultados obtenidos después de la implementación de cada script.
 
-+--------------+------------------------------------------+  
-|   CsvToJson     | 5 horas, resultado fallido.            |  
-+--------------+------------------------------------------+    
-| PandasJson   | 9 horas, resultado fallido.  |              
-+--------------+------------------------------------------+
++--------------+--------------------------------------------------+  
+|   CsvToJson  |tiempo ejecucion: 5 horas, resultado: fallo.  |  
++--------------+--------------------------------------------------+    
+| PandasJson   |tiempo ejecucion: 9 horas, resultado: fallo.  |              
++--------------+--------------------------------------------------+
 
 A pesar de que nuestros scripts fallaron, gracias a la colaboracion con el equipo 4 , logramos montar el archivo con la ayuda del workbench o IDE Studio 3T sin mayores complicaciones.
 
@@ -47,16 +47,25 @@ A pesar de que nuestros scripts fallaron, gracias a la colaboracion con el equip
 * Los resultados obtenidos:
 ![](https://cdn.discordapp.com/attachments/429423569605492737/433137589063516160/unknown.png)
 
+*Aqui podemos visualizar la primera coleccion movie_titles por parte de mongodb: 
+![]https://cdn.discordapp.com/attachments/429423569605492737/433152609612726272/unknown.png
+
+*Aqui la coleccion scores_2:
+![]https://cdn.discordapp.com/attachments/429423569605492737/433153676031295488/unknown.png
+
 # Problemas y errores encontrados<h2>
 
 *Nos dimos cuenta que a pesar de estar procesando bien el archivo para limpiar la data, al momento de iniciar la operacion de escribir el json,  se consumian todos los procesos de las maquinas utilizadas , hasta que los procesos se suicidaban.
 *La realizacion de querys especificas en mongo se torno algo complicado para el equipo, por la poca experiencia con esta base de datos
+*las querys a realizar en mongo no salieron exitosas y como se estaban solicitando, esto debido a como se manejan las colecciones y por un driver/version de mongo en pentaho; Sin embargo si fue posible visualizar los datos en pentaho
 
 
 
 # ¿Cómo se solucionaron los problemas?<h2>
 
-Gracias a los scripts que el equipo 4 nos compartio, pudimos limpiar y formatear el archivo combined_data_2.txt y asi poder montarlo a la base de datos
+*Gracias a los scripts que el equipo 4 nos compartio, pudimos limpiar y formatear el archivo combined_data_2.txt y asi poder montarlo a la base de datos
 
 
-# ¿Cómo no se solucionaron los problemas?
+# ¿Cómo no se solucionaron los problemas?<h2>
+*El siquente fue un error que se presento a la hora de tratar de hacer una query especifica con mongo en pentaho 
+![]https://cdn.discordapp.com/attachments/429423569605492737/433153491066814465/Captura.PNG
