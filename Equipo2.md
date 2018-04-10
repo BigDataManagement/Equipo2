@@ -28,13 +28,17 @@ A continuación se puede observar los resultados obtenidos después de la implem
 A pesar de que nuestros scripts fallaron, gracias a la colaboracion con el equipo 4 , logramos montar el archivo con la ayuda del workbench o IDE Studio 3T sin mayores complicaciones.
 
 
-*la coleccion movie_titles tomo menos de un segundo en subirse a la base de datos
+* la coleccion movie_titles tomo menos de un segundo en subirse a la base de datos
 ![](https://cdn.discordapp.com/attachments/429423569605492737/433116050209636353/unknown.png)
 
-*la coleccion scores_2  tomo 35 min aprox en subirse a la base de datos.
+* la coleccion scores_2  tomo 35 min aprox en subirse a la base de datos.
 ![](https://media.discordapp.net/attachments/429423569605492737/433118326676389888/unknown.png?width=860&height=484)
 
+* En las siguientes imágenes podemos ver la manera como se hace la consulta con las 5 mejores calificaciones.
+![](https://cdn.discordapp.com/attachments/429423569605492737/433132959340691457/unknown.png)
 
+* Y cuál fue el resultado obtenido.
+![](https://cdn.discordapp.com/attachments/429423569605492737/433132897793343510/unknown.png)
 # Problemas y errores encontrados<h2>
 
 Nos dimos cuenta que a pesar de estar procesando bien el archivo para limpiar la data, al momento de iniciar la operacion de escribir el json,  se consumian todos los procesos de las maquinas utilizadas , hasta que los procesos se suicidaban.
