@@ -47,11 +47,11 @@ A pesar de que nuestros scripts fallaron, gracias a la colaboracion con el equip
 * Los resultados obtenidos:
 ![](https://cdn.discordapp.com/attachments/429423569605492737/433137589063516160/unknown.png)
 
-*Aqui podemos visualizar la primera coleccion movie_titles por parte de mongodb: 
-![]https://cdn.discordapp.com/attachments/429423569605492737/433152609612726272/unknown.png
+*Aqui podemos visualizar la primera coleccion movie_titles por parte de mongodb:
+![](https://cdn.discordapp.com/attachments/429423569605492737/433152609612726272/unknown.png)
 
 *Aqui la coleccion scores_2:
-![]https://cdn.discordapp.com/attachments/429423569605492737/433153676031295488/unknown.png
+![](https://cdn.discordapp.com/attachments/429423569605492737/433153676031295488/unknown.png)
 
 # Problemas y errores encontrados<h2>
 
@@ -67,5 +67,5 @@ A pesar de que nuestros scripts fallaron, gracias a la colaboracion con el equip
 
 
 # ¿Cómo no se solucionaron los problemas?<h2>
-*El siquente fue un error que se presento a la hora de tratar de hacer una query especifica con mongo en pentaho 
+*El siquente fue un error que se presento a la hora de tratar de hacer una query especifica con mongo en pentaho
 ![]https://cdn.discordapp.com/attachments/429423569605492737/433153491066814465/Captura.PNG
